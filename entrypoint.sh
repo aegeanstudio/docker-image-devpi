@@ -48,5 +48,5 @@ else
 fi
 
 echo "[READY] Running Command:"
-echo "[READY] $@"
+echo "[READY] $*"
 exec "$@"
