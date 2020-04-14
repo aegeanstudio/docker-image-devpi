@@ -17,6 +17,8 @@ RUN chmod +x /entrypoint.sh
 
 WORKDIR /root/.
 RUN pip install -r requirements.txt
-ENTRYPOINT ["/entrypoint.sh"]
+
+EXPOSE 3141/tcp
 HEALTHCHECK --interval=60s CMD ["curl", "-s", "-o", "/dev/null", "http://127.0.0.1:3141/+status" ]
+ENTRYPOINT ["/entrypoint.sh"]
 CMD ["devpi-server", "--host", "0.0.0.0", "--request-timeout", "30"]
