@@ -14,7 +14,7 @@ services:
       - /bin/sh
       - -c
       - |
-        devpi-server --host 0.0.0.0
+        devpi-server --host=0.0.0.0 --threads=64
     restart: always
     networks:
       - devpi

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-env | grep -i devpi | xargs -I {} echo [ENV]{}
+env | grep -i devpi | xargs -I {} echo [ENV] {}
 
 devpi_init() {
 
