@@ -1,7 +1,8 @@
 FROM python:3.8.2
 LABEL maintainer='M@gicAgCl(DEAD) <wyqsmith@aegeanstudio.com>'
 
-ENV DEVPI_INIT_CONFIGFILE=None \
+ENV PYTHONUNBUFFERED=true \
+    DEVPI_INIT_CONFIGFILE=None \
     DEVPI_INIT_ROLE=auto \
     DEVPI_INIT_MASTER_URL=None \
     DEVPI_INIT_SERVERDIR=/root/.devpi/server \
