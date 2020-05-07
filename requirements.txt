@@ -19,7 +19,7 @@ cmarkgfm==0.4.2           # via readme-renderer
 defusedxml==0.6.0         # via devpi-web
 devpi-client==5.2.0       # via -r requirements.in
 devpi-common==3.5.0       # via devpi-client, devpi-server, devpi-web
-devpi-server==5.4.1       # via -r requirements.in, devpi-web
+devpi-server==5.5.0       # via -r requirements.in, devpi-web
 devpi-web==4.0.3          # via -r requirements.in
 distlib==0.3.0            # via virtualenv
 docutils==0.16            # via devpi-web, readme-renderer
