@@ -5,14 +5,14 @@
 #    pip-compile requirements.in
 #
 apipkg==1.5               # via execnet
-appdirs==1.4.3            # via devpi-server, virtualenv
-argon2-cffi==19.2.0       # via passlib
+appdirs==1.4.4            # via devpi-server, virtualenv
+argon2-cffi==20.1.0       # via passlib
 attrs==19.3.0             # via devpi-server
 beautifulsoup4==4.9.0     # via devpi-web
 bleach==3.1.5             # via readme-renderer
 certifi==2020.4.5.1       # via requests
 cffi==1.14.0              # via argon2-cffi, cmarkgfm
-chameleon==3.7.0          # via pyramid-chameleon
+chameleon==3.7.1          # via pyramid-chameleon
 chardet==3.0.4            # via requests
 check-manifest==0.42      # via devpi-client
 cmarkgfm==0.4.2           # via readme-renderer
@@ -20,7 +20,7 @@ defusedxml==0.6.0         # via devpi-web
 devpi-client==5.2.0       # via -r requirements.in
 devpi-common==3.5.0       # via devpi-client, devpi-server, devpi-web
 devpi-server==5.5.0       # via -r requirements.in, devpi-web
-devpi-web==4.0.3          # via -r requirements.in
+devpi-web==4.0.4          # via -r requirements.in
 distlib==0.3.0            # via virtualenv
 docutils==0.16            # via devpi-web, readme-renderer
 execnet==1.7.1            # via devpi-server
