@@ -1,4 +1,4 @@
-FROM python:3.8.2
+FROM python:3.8.3
 LABEL maintainer='M@gicAgCl(DEAD) <wyqsmith@aegeanstudio.com>'
 
 ENV PYTHONUNBUFFERED=true \
