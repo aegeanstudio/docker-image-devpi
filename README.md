@@ -15,8 +15,7 @@ docker run -p 3141:3141 -t aegeanstudio/devpi
 ```
 
 *Alternatively, you can use the sample [docker-compose.yaml](docker-compose.yaml)
-file to start the container using [Docker
-Compose](https://docs.docker.com/compose/)*.
+file to start the container using [Docker Compose](https://docs.docker.com/compose/)*.
 
 # License
 
