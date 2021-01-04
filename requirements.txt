@@ -4,66 +4,166 @@
 #
 #    pip-compile requirements.in
 #
-apipkg==1.5               # via execnet
-appdirs==1.4.4            # via devpi-server, virtualenv
-argon2-cffi==20.1.0       # via passlib
-attrs==20.2.0             # via devpi-server
-beautifulsoup4==4.9.3     # via devpi-web
-bleach==3.2.1             # via readme-renderer
-certifi==2020.6.20        # via requests
-cffi==1.14.3              # via argon2-cffi, cmarkgfm
-chameleon==3.8.1          # via pyramid-chameleon
-chardet==3.0.4            # via requests
-check-manifest==0.44      # via devpi-client
-cmarkgfm==0.4.2           # via readme-renderer
-defusedxml==0.6.0         # via devpi-web
-devpi-client==5.2.1       # via -r requirements.in
-devpi-common==3.6.0       # via devpi-client, devpi-server, devpi-web
-devpi-server==5.5.0       # via -r requirements.in, devpi-web
-devpi-web==4.0.5          # via -r requirements.in
-distlib==0.3.1            # via virtualenv
-docutils==0.16            # via devpi-web, readme-renderer
-execnet==1.7.1            # via devpi-server
-filelock==3.0.12          # via tox, virtualenv
-hupper==1.10.2            # via pyramid
-idna==2.10                # via requests
-itsdangerous==1.1.0       # via devpi-server
-lazy==1.4                 # via devpi-common
-packaging==20.4           # via bleach, tox
-passlib[argon2]==1.7.4    # via devpi-server
-pastedeploy==2.1.1        # via plaster-pastedeploy
-pep517==0.8.2             # via check-manifest
-pkginfo==1.5.0.1          # via devpi-client
-plaster-pastedeploy==0.7  # via pyramid
-plaster==1.0              # via plaster-pastedeploy, pyramid
-pluggy==0.13.1            # via devpi-client, devpi-server, tox
-py==1.9.0                 # via devpi-client, devpi-common, devpi-server, tox
-pycparser==2.20           # via cffi
-pygments==2.7.1           # via devpi-web, readme-renderer
-pyparsing==2.4.7          # via packaging
-pyramid-chameleon==0.3    # via devpi-web
-pyramid==1.10.4           # via devpi-server, devpi-web, pyramid-chameleon
-python-dateutil==2.8.1    # via strictyaml
-readme-renderer[md]==27.0  # via devpi-web
-repoze.lru==0.7           # via devpi-server
-requests==2.24.0          # via devpi-common
-ruamel.yaml.clib==0.2.2   # via ruamel.yaml
-ruamel.yaml==0.16.12      # via strictyaml
-six==1.15.0               # via argon2-cffi, bleach, packaging, python-dateutil, readme-renderer, tox, virtualenv
-soupsieve==2.0.1          # via beautifulsoup4
-strictyaml==1.1.0         # via devpi-server
-toml==0.10.1              # via check-manifest, pep517, tox
-tox==3.20.1               # via devpi-client
-translationstring==1.4    # via pyramid
-urllib3==1.25.10          # via requests
-venusian==3.0.0           # via pyramid
-virtualenv==20.0.34       # via tox
-waitress==1.4.4           # via devpi-server
-webencodings==0.5.1       # via bleach
-webob==1.8.6              # via pyramid
-whoosh==2.7.4             # via devpi-web
-zope.deprecation==4.4.0   # via pyramid
-zope.interface==5.1.2     # via pyramid
+apipkg==1.5
+    # via execnet
+appdirs==1.4.4
+    # via
+    #   devpi-server
+    #   virtualenv
+argon2-cffi==20.1.0
+    # via passlib
+attrs==20.3.0
+    # via devpi-server
+beautifulsoup4==4.9.3
+    # via devpi-web
+bleach==3.2.1
+    # via readme-renderer
+build==0.1.0
+    # via check-manifest
+certifi==2020.12.5
+    # via requests
+cffi==1.14.4
+    # via
+    #   argon2-cffi
+    #   cmarkgfm
+chameleon==3.8.1
+    # via pyramid-chameleon
+chardet==4.0.0
+    # via requests
+check-manifest==0.45
+    # via devpi-client
+cmarkgfm==0.5.2
+    # via readme-renderer
+defusedxml==0.6.0
+    # via devpi-web
+devpi-client==5.2.1
+    # via -r requirements.in
+devpi-common==3.6.0
+    # via
+    #   devpi-client
+    #   devpi-server
+    #   devpi-web
+devpi-server==5.5.0
+    # via
+    #   -r requirements.in
+    #   devpi-web
+devpi-web==4.0.5
+    # via -r requirements.in
+distlib==0.3.1
+    # via virtualenv
+docutils==0.16
+    # via
+    #   devpi-web
+    #   readme-renderer
+execnet==1.7.1
+    # via devpi-server
+filelock==3.0.12
+    # via
+    #   tox
+    #   virtualenv
+hupper==1.10.2
+    # via pyramid
+idna==2.10
+    # via requests
+itsdangerous==1.1.0
+    # via devpi-server
+lazy==1.4
+    # via devpi-common
+packaging==20.8
+    # via
+    #   bleach
+    #   build
+    #   tox
+passlib[argon2]==1.7.4
+    # via devpi-server
+pastedeploy==2.1.1
+    # via plaster-pastedeploy
+pep517==0.9.1
+    # via build
+pkginfo==1.6.1
+    # via devpi-client
+plaster-pastedeploy==0.7
+    # via pyramid
+plaster==1.0
+    # via
+    #   plaster-pastedeploy
+    #   pyramid
+pluggy==0.13.1
+    # via
+    #   devpi-client
+    #   devpi-server
+    #   tox
+py==1.10.0
+    # via
+    #   devpi-client
+    #   devpi-common
+    #   devpi-server
+    #   tox
+pycparser==2.20
+    # via cffi
+pygments==2.7.3
+    # via
+    #   devpi-web
+    #   readme-renderer
+pyparsing==2.4.7
+    # via packaging
+pyramid-chameleon==0.3
+    # via devpi-web
+pyramid==1.10.5
+    # via
+    #   devpi-server
+    #   devpi-web
+    #   pyramid-chameleon
+python-dateutil==2.8.1
+    # via strictyaml
+readme-renderer[md]==28.0
+    # via devpi-web
+repoze.lru==0.7
+    # via devpi-server
+requests==2.25.1
+    # via devpi-common
+ruamel.yaml==0.16.12
+    # via strictyaml
+six==1.15.0
+    # via
+    #   argon2-cffi
+    #   bleach
+    #   python-dateutil
+    #   readme-renderer
+    #   tox
+    #   virtualenv
+soupsieve==2.1
+    # via beautifulsoup4
+strictyaml==1.2.0
+    # via devpi-server
+toml==0.10.2
+    # via
+    #   build
+    #   check-manifest
+    #   pep517
+    #   tox
+tox==3.20.1
+    # via devpi-client
+translationstring==1.4
+    # via pyramid
+urllib3==1.26.2
+    # via requests
+venusian==3.0.0
+    # via pyramid
+virtualenv==20.2.2
+    # via tox
+waitress==1.4.4
+    # via devpi-server
+webencodings==0.5.1
+    # via bleach
+webob==1.8.6
+    # via pyramid
+whoosh==2.7.4
+    # via devpi-web
+zope.deprecation==4.4.0
+    # via pyramid
+zope.interface==5.2.0
+    # via pyramid
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
