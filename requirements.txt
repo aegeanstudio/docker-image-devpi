@@ -16,7 +16,7 @@ attrs==20.3.0
     # via devpi-server
 beautifulsoup4==4.9.3
     # via devpi-web
-bleach==3.2.1
+bleach==3.3.0
     # via readme-renderer
 build==0.1.0
     # via check-manifest
