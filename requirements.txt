@@ -18,7 +18,7 @@ beautifulsoup4==4.9.3
     # via devpi-web
 bleach==3.3.0
     # via readme-renderer
-build==0.3.0
+build==0.3.1.post1
     # via check-manifest
 certifi==2020.12.5
     # via requests
@@ -26,15 +26,15 @@ cffi==1.14.5
     # via
     #   argon2-cffi
     #   cmarkgfm
-chameleon==3.8.1
+chameleon==3.9.0
     # via pyramid-chameleon
 chardet==4.0.0
     # via requests
 check-manifest==0.46
     # via devpi-client
-cmarkgfm==0.5.2
+cmarkgfm==0.5.3
     # via readme-renderer
-defusedxml==0.6.0
+defusedxml==0.7.1
     # via devpi-web
 devpi-client==5.2.2
     # via -r requirements.in
@@ -43,7 +43,7 @@ devpi-common==3.6.0
     #   devpi-client
     #   devpi-server
     #   devpi-web
-devpi-server==5.5.0
+devpi-server==5.5.1
     # via
     #   -r requirements.in
     #   devpi-web
@@ -78,7 +78,7 @@ passlib[argon2]==1.7.4
     # via devpi-server
 pastedeploy==2.1.1
     # via plaster-pastedeploy
-pep517==0.9.1
+pep517==0.10.0
     # via build
 pkginfo==1.7.0
     # via devpi-client
@@ -101,7 +101,7 @@ py==1.10.0
     #   tox
 pycparser==2.20
     # via cffi
-pygments==2.8.0
+pygments==2.8.1
     # via
     #   devpi-web
     #   readme-renderer
@@ -109,20 +109,22 @@ pyparsing==2.4.7
     # via packaging
 pyramid-chameleon==0.3
     # via devpi-web
-pyramid==1.10.7
+pyramid==1.10.8
     # via
     #   devpi-server
     #   devpi-web
     #   pyramid-chameleon
 python-dateutil==2.8.1
     # via strictyaml
-readme-renderer[md]==28.0
+readme-renderer[md]==29.0
     # via devpi-web
 repoze.lru==0.7
     # via devpi-server
 requests==2.25.1
     # via devpi-common
-ruamel.yaml==0.16.12
+ruamel.yaml.clib==0.2.2
+    # via ruamel.yaml
+ruamel.yaml==0.16.13
     # via strictyaml
 six==1.15.0
     # via
@@ -142,7 +144,7 @@ toml==0.10.2
     #   check-manifest
     #   pep517
     #   tox
-tox==3.22.0
+tox==3.23.0
     # via devpi-client
 translationstring==1.4
     # via pyramid
@@ -152,7 +154,7 @@ venusian==3.0.0
     # via pyramid
 virtualenv==20.4.2
     # via tox
-waitress==1.4.4
+waitress==2.0.0
     # via devpi-server
 webencodings==0.5.1
     # via bleach
