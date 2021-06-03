@@ -44,7 +44,7 @@ devpi_init() {
 if [ ! -f "$DEVPI_INIT_SERVERDIR"/.serverversion ]; then
   devpi_init
 else
-    echo "[INIT] Skipped Task devpi-init. (File \"$DEVPI_INIT_SERVERDIR/.serverversion\" Already Existed)"
+  echo "[INIT] Skipped Task devpi-init. (File \"$DEVPI_INIT_SERVERDIR/.serverversion\" Already Existed)"
 fi
 
 echo "[READY] Running Command:"

@@ -20,9 +20,9 @@ beautifulsoup4==4.9.3
     # via devpi-web
 bleach==3.3.0
     # via readme-renderer
-build==0.3.1.post1
+build==0.4.0
     # via check-manifest
-certifi==2020.12.5
+certifi==2021.5.30
     # via requests
 cffi==1.14.5
     # via
@@ -53,13 +53,13 @@ devpi-server==6.0.0
     #   devpi-web
 devpi-web==4.0.6
     # via -r requirements.in
-distlib==0.3.1
+distlib==0.3.2
     # via virtualenv
 docutils==0.17.1
     # via
     #   devpi-web
     #   readme-renderer
-execnet==1.8.0
+execnet==1.8.1
     # via devpi-server
 filelock==3.0.12
     # via
@@ -140,7 +140,7 @@ six==1.16.0
     #   virtualenv
 soupsieve==2.2.1
     # via beautifulsoup4
-strictyaml==1.4.0
+strictyaml==1.4.2
     # via devpi-server
 toml==0.10.2
     # via
@@ -151,11 +151,11 @@ tox==3.23.1
     # via devpi-client
 translationstring==1.4
     # via pyramid
-urllib3==1.26.4
+urllib3==1.26.5
     # via requests
 venusian==3.0.0
     # via pyramid
-virtualenv==20.4.6
+virtualenv==20.4.7
     # via tox
 waitress==2.0.0
     # via devpi-server
