@@ -28,7 +28,7 @@ bleach==4.1.0
     # via readme-renderer
 build==0.7.0
     # via check-manifest
-certifi==2021.10.8
+certifi==2022.12.7
     # via requests
 cffi==1.15.0
     # via
@@ -144,14 +144,12 @@ python-dateutil==2.8.2
     # via strictyaml
 readme-renderer[md]==32.0
     # via devpi-web
-repoze.lru==0.7
+repoze-lru==0.7
     # via devpi-server
 requests==2.27.1
     # via devpi-common
-ruamel.yaml==0.17.20
+ruamel-yaml==0.17.20
     # via devpi-server
-ruamel.yaml.clib==0.2.6
-    # via ruamel.yaml
 six==1.16.0
     # via
     #   bleach
@@ -190,9 +188,9 @@ whoosh==2.7.4
     # via devpi-web
 yarl==1.7.2
     # via aiohttp
-zope.deprecation==4.4.0
+zope-deprecation==4.4.0
     # via pyramid
-zope.interface==5.4.0
+zope-interface==5.4.0
     # via pyramid
 
 # The following packages are considered to be unsafe in a requirements file:
