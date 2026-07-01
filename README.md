@@ -14,7 +14,7 @@ This repository is available on [https://github.com/AeGean-Studio/docker-image-d
 docker run -p 3141:3141 -t aegeanstudio/devpi
 ```
 
-*Alternatively, you can use the sample [docker-compose.yaml](docker-compose.yaml)
+*Alternatively, you can use the sample [docker-compose.yaml](compose.yaml)
 file to start the container using [Docker Compose](https://docs.docker.com/compose/)*.
 
 # License

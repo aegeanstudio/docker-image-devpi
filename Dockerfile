@@ -1,4 +1,5 @@
-FROM python:3.12.4
+FROM python:3.13-alpine
+
 LABEL maintainer='M@gicAgCl(DEAD) <wyqsmith@aegeanstudio.com>'
 
 ENV PYTHONUNBUFFERED=true \
@@ -12,11 +13,14 @@ ENV PYTHONUNBUFFERED=true \
     DEVPI_INIT_ROOT_PASSWD='' \
     DEVPI_INIT_ROOT_PASSWD_HASH=None
 
+RUN apk add --no-cache curl
+
 COPY requirements.txt /root/requirements.txt
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 WORKDIR /root/.
+RUN pip install -U pip "setuptools<81" wheel
 RUN pip install -r requirements.txt
 
 EXPOSE 3141/tcp

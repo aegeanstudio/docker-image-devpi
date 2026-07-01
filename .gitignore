@@ -1,5 +1,8 @@
 # Environments
 venv/
 
+# Local Store
+.devpi
+
 # Jetbrains IDE
 .idea
